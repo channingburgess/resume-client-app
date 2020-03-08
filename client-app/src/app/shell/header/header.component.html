@@ -1,0 +1,22 @@
+<header>
+    <mat-toolbar color="accent">
+        <mat-toolbar-row>
+            <div class="container d-flex">
+                <a routerLink="/">
+                    <strong>Resume</strong>
+                </a>
+                <span class="pr-3"></span>
+                <button mat-button [matMenuTriggerFor]="accountMenu">Account</button>
+                <mat-menu class="pull-right" #accountMenu="matMenu">
+                    <div *ngIf="!isAuthenticated">
+                        <a mat-menu-item [routerLink]="'/login'">Login</a>
+                        <a mat-menu-item [routerLink]="'/register'">register</a>
+                    </div>
+                    <div *ngIf="isAuthenticated">
+                        <a mat-menu-item [routerLink]="'/welcome'">Content</a>
+                        <a mat-menu-item (click)="signout()" href="javascript:void(0)">Signout</a>
+                    </div>
+                </mat-menu>
+            </div>           
+        </mat-toolbar-row>
+    </mat-toolbar>
