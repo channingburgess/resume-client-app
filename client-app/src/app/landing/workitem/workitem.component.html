@@ -1,0 +1,26 @@
+<div class="row row-no-x-margin my-5">
+    <div class="col-sm-12">
+      <mat-card color="acccent">
+        <div class="mb-1 d-flex">
+          <div class="d-flex">
+            <img [src]="work.img" style="margin-top:-15px">          
+          </div>
+          <div class="d-flex">
+            <mat-card-header>
+              <mat-card-title>{{work.company}}</mat-card-title>
+              <mat-card-subtitle>
+                <strong>{{work.position}}</strong>
+                <br/>
+                <i>{{work.startDate | date :'MMM yyyy'}} - {{work.endDate ? (work.endDate | date:'MMM yyyy'): 'Present'}}</i>
+              </mat-card-subtitle>
+            </mat-card-header>
+          </div>
+        </div>          
+        <mat-card-content>
+          <p>
+              {{work.description}}            
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>

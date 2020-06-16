@@ -1,6 +1,6 @@
 <header>
-  <mat-toolbar style="background:transparent;">
-    <mat-toolbar-row style="z-index: 999;" class="toolbar-color">
+  <mat-toolbar color="accent">
+    <mat-toolbar-row>
       <div class="container d-flex">
         <a mat-button routerLink="/">
           Resume
@@ -8,7 +8,7 @@
         <span class="toolbar-spacer"></span>
         <a mat-button [routerLink]="'/login'">Login</a>
         <a mat-button [routerLink]="'/register'">Register</a>
-        <!-- <button mat-button [matMenuTriggerFor]="accountMenu">Account</button>
+        <button mat-button [matMenuTriggerFor]="accountMenu">Account</button>
         <mat-menu class="pull-right" #accountMenu="matMenu">
           <div *ngIf="!isAuthenticated">
             <a mat-menu-item [routerLink]="'/login'">Login</a>
@@ -20,8 +20,10 @@
               >Signout</a
             >
           </div>
-        </mat-menu> -->
+        </mat-menu>
+
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
+  
 </header>
