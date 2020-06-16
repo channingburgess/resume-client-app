@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="768">
+<defs>
+<style type="text/css"> @import url(https://fonts.googleapis.com/css?family=Roboto%20Mono:400); </style>
+</defs>
+<g>
+<g transform="translate(520,380) rotate(0,0,0)">
+<text fill="rgb(22, 15, 41)" stroke="none" font-family="Roboto Mono" font-size="104.827px" font-style="normal" font-weight="normal" x="-314.5111389160156" y="-41.93064960000001" text-anchor="start" dominant-baseline="alphabetic">Javascript</text>
+</g>
+<g transform="translate(510,300) rotate(0,0,0)">
+<text fill="rgb(36, 106, 115)" stroke="none" font-family="Roboto" font-size="104.827px" font-style="normal" font-weight="normal" x="-220.15780639648438" y="-41.93064960000001" text-anchor="start" dominant-baseline="alphabetic">Angular</text>
+</g>
+<g transform="translate(520,460) rotate(0,0,0)">
+<text fill="rgb(132, 112, 97)" stroke="none" font-family="Roboto Mono" font-size="78.62px" font-style="normal" font-weight="normal" x="-212.2815399169922" y="-31.4479872" text-anchor="start" dominant-baseline="alphabetic">AngularJS</text>
+</g>
+<g transform="translate(510,540) rotate(0,0,0)">
+<text fill="rgb(221, 190, 168)" stroke="none" font-family="Roboto Mono" font-size="78.62px" font-style="normal" font-weight="normal" x="-70.76051330566406" y="-31.4479872" text-anchor="start" dominant-baseline="alphabetic">CSS</text>
+</g>
+<g transform="translate(490,220) rotate(0,0,0)">
+<text fill="rgb(36, 106, 115)" stroke="none" font-family="Roboto Mono" font-size="78.62px" font-style="normal" font-weight="normal" x="-47.173675537109375" y="-31.4479872" text-anchor="start" dominant-baseline="alphabetic">C#</text>
+</g>
+<g transform="translate(510,620) rotate(0,0,0)">
+<text fill="rgb(221, 190, 168)" stroke="none" font-family="Roboto Mono" font-size="78.62px" font-style="normal" font-weight="normal" x="-141.52102661132812" y="-31.4479872" text-anchor="start" dominant-baseline="alphabetic">PL/SQL</text>
+</g>
+<g transform="translate(510,140) rotate(0,0,0)">
+<text fill="rgb(36, 106, 115)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-157.25555419921875" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">TypeScript</text>
+</g>
+<g transform="translate(420,400) rotate(0,0,0)">
+<text fill="rgb(54, 143, 139)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-62.9022216796875" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">JIRA</text>
+</g>
+<g transform="translate(500,660) rotate(0,0,0)">
+<text fill="rgb(221, 190, 168)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-141.52999877929688" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">.NET CORE</text>
+</g>
+<g transform="translate(510,100) rotate(0,0,0)">
+<text fill="rgb(22, 15, 41)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-94.35333251953125" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">Docker</text>
+</g>
+<g transform="translate(510,700) rotate(0,0,0)">
+<text fill="rgb(221, 190, 168)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-251.60888671875" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">Entity Framework</text>
+</g>
+<g transform="translate(690,500) rotate(0,0,0)">
+<text fill="rgb(132, 112, 97)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-110.07888793945312" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">Jenkins</text>
+</g>
+<g transform="translate(360,520) rotate(0,0,0)">
+<text fill="rgb(54, 143, 139)" stroke="none" font-family="Roboto Mono" font-size="52.4133px" font-style="normal" font-weight="normal" x="-78.64057159423828" y="-20.965324800000005" text-anchor="start" dominant-baseline="alphabetic">T-SQL</text>
+</g>
+<g transform="translate(580,380) rotate(0,0,0)">
+<text fill="rgb(36, 106, 115)" stroke="none" font-family="Roboto Mono" font-size="26.2067px" font-style="normal" font-weight="normal" x="-31.445098876953125" y="-10.482662400000002" text-anchor="start" dominant-baseline="alphabetic">SCSS</text>
+</g>
+<g transform="translate(290,380) rotate(0,0,0)">
+<text fill="rgb(22, 15, 41)" stroke="none" font-family="Roboto Mono" font-size="26.2067px" font-style="normal" font-weight="normal" x="-23.583824157714844" y="-10.482662400000002" text-anchor="start" dominant-baseline="alphabetic">GIT</text>
+</g>
+</g>
+</svg>
