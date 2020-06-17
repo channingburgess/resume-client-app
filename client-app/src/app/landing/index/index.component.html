@@ -1,68 +1,78 @@
-<div class="container">
-  <div class="row row-no-x-margin mt-5 mb-5">
-    <div class="col-sm-12 col-md-4">
-      <div class="image-cropper">
-        <img src="../../../assets/avatars/profile.jpg" alt="avatar" class="profile-pic">
+<div class="pt-5 pb-5 background-banner">
+  <div class="container">
+    <div class="row row-no-x-margin">
+      <div class="col-sm-12 col-md-4">
+        <div class="image-cropper">
+          <img src="../../../resume-client-app/assets/avatars/profile.jpg" alt="avatar" class="profile-pic">
+        </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-md-8">
-      <div class="row d-table h-100">
-        <!-- <div class="col-sm-12">
+      <div class="col-xs-12 col-md-8">
+        <div class="row d-table h-100">
+          <!-- <div class="col-sm-12">
           <h1 class="welcome-title">Channing Burgess</h1>
         </div> -->
-        <div class="col-sm-12" class="d-table-cell align-middle">
-          <mat-card color="acccent">
-            <mat-card-header>
-              <mat-card-title>Channing Burgess</mat-card-title>
-              <mat-card-subtitle>Full Stack Developer for the .NET Platform.</mat-card-subtitle>
-            </mat-card-header>
+          <div class="col-sm-12" class="d-table-cell align-middle">
+            <mat-card color="acccent">
+              <mat-card-header>
+                <mat-card-title>Channing Burgess</mat-card-title>
+                <mat-card-subtitle>Full Stack Developer for the .NET Platform.</mat-card-subtitle>
+              </mat-card-header>
 
-            <mat-card-content>
-              <p>
-                Motivated engineer that likes to learn new processes and technologies.
-                I like being on teams that can come together to work efficiently and methodically in an Agile
-                setting.
-                Primary focusing on front end development, I like building applications that are engaging to users
-                with utmost consistency.
-              </p>
-            </mat-card-content>
-            <mat-card-actions>
-              <a mat-stroked-button href="https://www.linkedin.com/in/channingburgess" target="_blank">
-                <img
-                  src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
-                  style="height: 20px;" />
-                Linkedin
-              </a>
-              <a mat-stroked-button href="https://github.com/channingburgess" target="_blank">
-                <img
-                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                style="height: 20px;"/>
-              GitHub
-              </a>
-            </mat-card-actions>
-          </mat-card>
+              <mat-card-content>
+                <p>
+                  Motivated engineer that likes to learn new processes and technologies.
+                  I like being on teams that can come together to work efficiently and methodically in an Agile
+                  setting.
+                  Primary focusing on front end development, I like building applications that are engaging to users
+                  with utmost consistency.
+                </p>
+              </mat-card-content>
+              <mat-card-actions>
+                <a mat-stroked-button href="https://www.linkedin.com/in/channingburgess" target="_blank"
+                  title="linkedin">
+                  <img
+                    src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
+                    style="height: 20px;" />
+                  <span class="d-none d-sm-inline pl-sm-2">Linkedin</span>
+                </a>
+                <a mat-stroked-button href="https://github.com/channingburgess" target="_blank" title="github">
+                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    style="height: 20px;" />
+                  <span class="d-none d-sm-inline pl-sm-2">GitHub</span>
+                </a>
+                <a mat-stroked-button href="../../../resume-client-app/assets/resume.pdf" target="_blank" title="resume">
+                  <mat-icon>insert_drive_file</mat-icon>
+                  <span class="d-none d-sm-inline pl-sm-2">Resume</span>
+                </a>
+              </mat-card-actions>
+            </mat-card>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-  <mat-tab-group color="accent">
-    <mat-tab>
-      <ng-template mat-tab-label>
-        <h3>Background</h3>
-      </ng-template>        
-      <app-workitem [work]="work" *ngFor="let work of WorkHistory"></app-workitem>        
-    </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        <h3>What I'm Good At</h3>
-      </ng-template>
-      <img src="../../../assets/pictures/wordcloudcode.svg" />
-    </mat-tab>
-    <mat-tab>
-      <ng-template mat-tab-label>
-        <h3>About Me</h3>
-      </ng-template>
-    </mat-tab>
-  </mat-tab-group>
+</div>
+<div>
+  <div class="container pt-5">
+    <mat-tab-group [dynamicHeight]='true' color="accent">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <h3>Work History</h3>
+        </ng-template>
+        <app-workitem [work]="work" *ngFor="let work of WorkHistory"></app-workitem>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <h3>What I'm Good At</h3>
+        </ng-template>
+        <app-skills></app-skills>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <h3>About Me</h3>
+        </ng-template>
+        <app-aboutme></app-aboutme>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
 </div>
