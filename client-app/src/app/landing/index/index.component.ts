@@ -18,22 +18,21 @@ export class IndexComponent implements OnInit {
         position: 'Software Developer III',
         startDate: new Date("2021-05-01"),
         endDate: null,
-        img: '/assets/pictures/MeridianCoop.PNG',
-        description: `I develop and support payment and billing software for
- electric, water, and fiber utilities. My work spans all
- application layers, including POS devices, customer
-facing UI, application servers, and database
- programming. I utilize .NET and AngularJS for
- development, while employing PL/SQL and T-SQL for
- database management.`
+        img: './assets/pictures/MeridianCoop.PNG',
+        description: `I develop and support payment and billing software for electric,
+ water, and fiber utilities. My work spans all application layers,
+ including POS devices, customer-facing UI, application servers,
+ and database programming. I utilize .NET, MVC Razor, and
+ AngularJS for development, while employing PL/SQL and
+ T-SQL for database management.`
       },
       {
         company: 'Cosaint Cyber.',
         position: 'Systems Engineer II',
         startDate: new Date("2020-09-01"),
         endDate: null,
-        img: '/assets/pictures/CosaintCyber.PNG',
-        description: ` I implement Elasticsearch, Kibana, and Logstash
+        img: './assets/pictures/CosaintCyber.PNG',
+        description: `I implement Elasticsearch, Kibana, and Logstash
  configuration files, set up data pipelines for various audit
  log types (Syslog, Web, etc.) and create custom python
  and shell scripts to collect and aggregate various types of
@@ -41,14 +40,14 @@ facing UI, application servers, and database
  implement process improvements for log collection and
  aggregation: automating manual processes, optimizing
  data delivery, redesigning infrastructure for greater
- scalability..`
+ scalability.`
       },
       {
         company: 'CACI International Inc.',
         position: 'Software Developer III',
         startDate: new Date("2020-03-01"),
         endDate: new Date("2021-05-01"),
-        img: '/assets/pictures/CACI.PNG',
+        img: './assets/pictures/CACI.PNG',
         description: `Working with a dedicated team to develop and support
  applications for the Executive Office of the President
  using Angular JS, C#, ASP.NET MVC, Entity Framework,
